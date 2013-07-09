@@ -16,6 +16,21 @@
 		0B9CD55F178C08DC00BD2196 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B9CD55E178C08DC00BD2196 /* Default.png */; };
 		0B9CD561178C08DC00BD2196 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B9CD560178C08DC00BD2196 /* Default@2x.png */; };
 		0B9CD563178C08DC00BD2196 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B9CD562178C08DC00BD2196 /* Default-568h@2x.png */; };
+		0B9CD56E178C095E00BD2196 /* calendar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0B9CD56C178C095E00BD2196 /* calendar.jpg */; };
+		0B9CD56F178C095E00BD2196 /* F_aids.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0B9CD56D178C095E00BD2196 /* F_aids.jpg */; };
+		0B9CD573178C098700BD2196 /* ImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9CD572178C098700BD2196 /* ImageModel.m */; };
+		0B9CD577178C09A700BD2196 /* MKNumberBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9CD576178C09A700BD2196 /* MKNumberBadgeView.m */; };
+		0B9CD586178C0A1B00BD2196 /* AbsenceTypeList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0B9CD578178C0A1B00BD2196 /* AbsenceTypeList.plist */; };
+		0B9CD587178C0A1B00BD2196 /* AbsenceTypesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9CD57A178C0A1B00BD2196 /* AbsenceTypesViewController.m */; };
+		0B9CD588178C0A1B00BD2196 /* AbsenceTypesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B9CD57B178C0A1B00BD2196 /* AbsenceTypesViewController.xib */; };
+		0B9CD589178C0A1B00BD2196 /* mainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B9CD57C178C0A1B00BD2196 /* mainWindow.xib */; };
+		0B9CD58A178C0A1B00BD2196 /* PhotosListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9CD57E178C0A1B00BD2196 /* PhotosListViewController.m */; };
+		0B9CD58B178C0A1B00BD2196 /* PhotosListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B9CD57F178C0A1B00BD2196 /* PhotosListViewController.xib */; };
+		0B9CD58C178C0A1B00BD2196 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9CD581178C0A1B00BD2196 /* RootViewController.m */; };
+		0B9CD58E178C0A1B00BD2196 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9CD585178C0A1B00BD2196 /* Utils.m */; };
+		0B9CD590178C0A2900BD2196 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B9CD58F178C0A2900BD2196 /* RootViewController.xib */; };
+		0B9CD592178C0A3F00BD2196 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B9CD591178C0A3F00BD2196 /* MobileCoreServices.framework */; };
+		0B9CD594178C0A4400BD2196 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B9CD593178C0A4400BD2196 /* AssetsLibrary.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +47,27 @@
 		0B9CD55E178C08DC00BD2196 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		0B9CD560178C08DC00BD2196 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		0B9CD562178C08DC00BD2196 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0B9CD56C178C095E00BD2196 /* calendar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = calendar.jpg; sourceTree = "<group>"; };
+		0B9CD56D178C095E00BD2196 /* F_aids.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = F_aids.jpg; sourceTree = "<group>"; };
+		0B9CD571178C098700BD2196 /* ImageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageModel.h; sourceTree = "<group>"; };
+		0B9CD572178C098700BD2196 /* ImageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageModel.m; sourceTree = "<group>"; };
+		0B9CD575178C09A700BD2196 /* MKNumberBadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKNumberBadgeView.h; sourceTree = "<group>"; };
+		0B9CD576178C09A700BD2196 /* MKNumberBadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKNumberBadgeView.m; sourceTree = "<group>"; };
+		0B9CD578178C0A1B00BD2196 /* AbsenceTypeList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AbsenceTypeList.plist; sourceTree = "<group>"; };
+		0B9CD579178C0A1B00BD2196 /* AbsenceTypesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbsenceTypesViewController.h; sourceTree = "<group>"; };
+		0B9CD57A178C0A1B00BD2196 /* AbsenceTypesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbsenceTypesViewController.m; sourceTree = "<group>"; };
+		0B9CD57B178C0A1B00BD2196 /* AbsenceTypesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AbsenceTypesViewController.xib; sourceTree = "<group>"; };
+		0B9CD57C178C0A1B00BD2196 /* mainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = mainWindow.xib; sourceTree = "<group>"; };
+		0B9CD57D178C0A1B00BD2196 /* PhotosListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotosListViewController.h; sourceTree = "<group>"; };
+		0B9CD57E178C0A1B00BD2196 /* PhotosListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotosListViewController.m; sourceTree = "<group>"; };
+		0B9CD57F178C0A1B00BD2196 /* PhotosListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotosListViewController.xib; sourceTree = "<group>"; };
+		0B9CD580178C0A1B00BD2196 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		0B9CD581178C0A1B00BD2196 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		0B9CD584178C0A1B00BD2196 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		0B9CD585178C0A1B00BD2196 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		0B9CD58F178C0A2900BD2196 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		0B9CD591178C0A3F00BD2196 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		0B9CD593178C0A4400BD2196 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +75,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B9CD594178C0A4400BD2196 /* AssetsLibrary.framework in Frameworks */,
+				0B9CD592178C0A3F00BD2196 /* MobileCoreServices.framework in Frameworks */,
 				0B9CD54D178C08DC00BD2196 /* UIKit.framework in Frameworks */,
 				0B9CD54F178C08DC00BD2196 /* Foundation.framework in Frameworks */,
 				0B9CD551178C08DC00BD2196 /* CoreGraphics.framework in Frameworks */,
@@ -68,6 +106,8 @@
 		0B9CD54B178C08DC00BD2196 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0B9CD593178C0A4400BD2196 /* AssetsLibrary.framework */,
+				0B9CD591178C0A3F00BD2196 /* MobileCoreServices.framework */,
 				0B9CD54C178C08DC00BD2196 /* UIKit.framework */,
 				0B9CD54E178C08DC00BD2196 /* Foundation.framework */,
 				0B9CD550178C08DC00BD2196 /* CoreGraphics.framework */,
@@ -78,6 +118,18 @@
 		0B9CD552178C08DC00BD2196 /* Sick Note */ = {
 			isa = PBXGroup;
 			children = (
+				0B9CD595178C0A9500BD2196 /* Resources */,
+				0B9CD579178C0A1B00BD2196 /* AbsenceTypesViewController.h */,
+				0B9CD57A178C0A1B00BD2196 /* AbsenceTypesViewController.m */,
+				0B9CD57D178C0A1B00BD2196 /* PhotosListViewController.h */,
+				0B9CD57E178C0A1B00BD2196 /* PhotosListViewController.m */,
+				0B9CD580178C0A1B00BD2196 /* RootViewController.h */,
+				0B9CD581178C0A1B00BD2196 /* RootViewController.m */,
+				0B9CD584178C0A1B00BD2196 /* Utils.h */,
+				0B9CD585178C0A1B00BD2196 /* Utils.m */,
+				0B9CD574178C098B00BD2196 /* MKNumberBadge */,
+				0B9CD570178C096500BD2196 /* ImageModel */,
+				0B9CD56B178C094900BD2196 /* Images */,
 				0B9CD55B178C08DC00BD2196 /* AppDelegate.h */,
 				0B9CD55C178C08DC00BD2196 /* AppDelegate.m */,
 				0B9CD553178C08DC00BD2196 /* Supporting Files */,
@@ -97,6 +149,45 @@
 				0B9CD562178C08DC00BD2196 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0B9CD56B178C094900BD2196 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				0B9CD56C178C095E00BD2196 /* calendar.jpg */,
+				0B9CD56D178C095E00BD2196 /* F_aids.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		0B9CD570178C096500BD2196 /* ImageModel */ = {
+			isa = PBXGroup;
+			children = (
+				0B9CD571178C098700BD2196 /* ImageModel.h */,
+				0B9CD572178C098700BD2196 /* ImageModel.m */,
+			);
+			name = ImageModel;
+			sourceTree = "<group>";
+		};
+		0B9CD574178C098B00BD2196 /* MKNumberBadge */ = {
+			isa = PBXGroup;
+			children = (
+				0B9CD575178C09A700BD2196 /* MKNumberBadgeView.h */,
+				0B9CD576178C09A700BD2196 /* MKNumberBadgeView.m */,
+			);
+			name = MKNumberBadge;
+			sourceTree = "<group>";
+		};
+		0B9CD595178C0A9500BD2196 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0B9CD578178C0A1B00BD2196 /* AbsenceTypeList.plist */,
+				0B9CD57C178C0A1B00BD2196 /* mainWindow.xib */,
+				0B9CD58F178C0A2900BD2196 /* RootViewController.xib */,
+				0B9CD57B178C0A1B00BD2196 /* AbsenceTypesViewController.xib */,
+				0B9CD57F178C0A1B00BD2196 /* PhotosListViewController.xib */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +245,13 @@
 				0B9CD55F178C08DC00BD2196 /* Default.png in Resources */,
 				0B9CD561178C08DC00BD2196 /* Default@2x.png in Resources */,
 				0B9CD563178C08DC00BD2196 /* Default-568h@2x.png in Resources */,
+				0B9CD56E178C095E00BD2196 /* calendar.jpg in Resources */,
+				0B9CD56F178C095E00BD2196 /* F_aids.jpg in Resources */,
+				0B9CD586178C0A1B00BD2196 /* AbsenceTypeList.plist in Resources */,
+				0B9CD588178C0A1B00BD2196 /* AbsenceTypesViewController.xib in Resources */,
+				0B9CD589178C0A1B00BD2196 /* mainWindow.xib in Resources */,
+				0B9CD58B178C0A1B00BD2196 /* PhotosListViewController.xib in Resources */,
+				0B9CD590178C0A2900BD2196 /* RootViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +264,12 @@
 			files = (
 				0B9CD559178C08DC00BD2196 /* main.m in Sources */,
 				0B9CD55D178C08DC00BD2196 /* AppDelegate.m in Sources */,
+				0B9CD573178C098700BD2196 /* ImageModel.m in Sources */,
+				0B9CD577178C09A700BD2196 /* MKNumberBadgeView.m in Sources */,
+				0B9CD587178C0A1B00BD2196 /* AbsenceTypesViewController.m in Sources */,
+				0B9CD58A178C0A1B00BD2196 /* PhotosListViewController.m in Sources */,
+				0B9CD58C178C0A1B00BD2196 /* RootViewController.m in Sources */,
+				0B9CD58E178C0A1B00BD2196 /* Utils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
