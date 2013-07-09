@@ -10,35 +10,12 @@
 
 @implementation AppDelegate
 
-@synthesize window;
-@synthesize navController;
-@synthesize viewController;
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    
-    // Initialize  View Controller
-    RootViewController *sickNoteViewController = [[RootViewController alloc] init];
-    
-    // Initialize Navigation Controller
-    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:sickNoteViewController];
-    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    
-    // Configure Window
-    [self.window setRootViewController:navigationController];
-    [self.window setBackgroundColor:[UIColor whiteColor]];
+    // Override point for customization after application launch.
+    self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
-    
-    /*
-     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-     // Override point for customization after application launch.
-     //self.viewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
-     //self.window.rootViewController = self.viewController;
-     
-     // Configure and show the window
-     [window addSubview:[navController view]];
-     [self.window makeKeyAndVisible];*/
     return YES;
 }
 
@@ -50,7 +27,7 @@
 
 - (void)applicationDidEnterBackground:(UIApplication *)application
 {
-    // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
+    // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later. 
     // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
 }
 

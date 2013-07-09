@@ -8,8 +8,20 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+#import "RootViewController.h"
 
-@property (strong, nonatomic) UIWindow *window;
+//@class RootViewController;
+
+@interface AppDelegate : UIResponder <UIApplicationDelegate>
+{
+    UIWindow *window;
+    UINavigationController *navController;
+    RootViewController *viewController;
+}
+
+@property (strong, nonatomic) IBOutlet UIWindow *window;
+@property (nonatomic, retain) IBOutlet UINavigationController *navController;
+@property (nonatomic, retain) IBOutlet UIViewController *viewController;
+
 
 @end
