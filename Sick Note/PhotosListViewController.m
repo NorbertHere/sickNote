@@ -24,8 +24,6 @@
 @synthesize photoCollector;
 @synthesize imageModelObjects;
 
-//GIT Testing
-
 - (NSMutableArray *)photos
 {
     if (!_photos) _photos = [NSMutableArray array];
