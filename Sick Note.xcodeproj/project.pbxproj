@@ -31,6 +31,8 @@
 		0B9CD590178C0A2900BD2196 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B9CD58F178C0A2900BD2196 /* RootViewController.xib */; };
 		0B9CD592178C0A3F00BD2196 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B9CD591178C0A3F00BD2196 /* MobileCoreServices.framework */; };
 		0B9CD594178C0A4400BD2196 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B9CD593178C0A4400BD2196 /* AssetsLibrary.framework */; };
+		BFB0ECD3178EC99900F6F934 /* PhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB0ECD2178EC99600F6F934 /* PhotoCell.m */; };
+		BFB0ECD5178EC9CB00F6F934 /* PhotoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFB0ECD4178EC9CB00F6F934 /* PhotoCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +70,9 @@
 		0B9CD58F178C0A2900BD2196 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
 		0B9CD591178C0A3F00BD2196 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		0B9CD593178C0A4400BD2196 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		BFB0ECD1178EC99600F6F934 /* PhotoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoCell.h; sourceTree = "<group>"; };
+		BFB0ECD2178EC99600F6F934 /* PhotoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoCell.m; sourceTree = "<group>"; };
+		BFB0ECD4178EC9CB00F6F934 /* PhotoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +128,9 @@
 				0B9CD57A178C0A1B00BD2196 /* AbsenceTypesViewController.m */,
 				0B9CD57D178C0A1B00BD2196 /* PhotosListViewController.h */,
 				0B9CD57E178C0A1B00BD2196 /* PhotosListViewController.m */,
+				BFB0ECD1178EC99600F6F934 /* PhotoCell.h */,
+				BFB0ECD2178EC99600F6F934 /* PhotoCell.m */,
+				BFB0ECD4178EC9CB00F6F934 /* PhotoCell.xib */,
 				0B9CD580178C0A1B00BD2196 /* RootViewController.h */,
 				0B9CD581178C0A1B00BD2196 /* RootViewController.m */,
 				0B9CD584178C0A1B00BD2196 /* Utils.h */,
@@ -241,6 +249,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFB0ECD5178EC9CB00F6F934 /* PhotoCell.xib in Resources */,
 				0B9CD557178C08DC00BD2196 /* InfoPlist.strings in Resources */,
 				0B9CD55F178C08DC00BD2196 /* Default.png in Resources */,
 				0B9CD561178C08DC00BD2196 /* Default@2x.png in Resources */,
@@ -262,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFB0ECD3178EC99900F6F934 /* PhotoCell.m in Sources */,
 				0B9CD559178C08DC00BD2196 /* main.m in Sources */,
 				0B9CD55D178C08DC00BD2196 /* AppDelegate.m in Sources */,
 				0B9CD573178C098700BD2196 /* ImageModel.m in Sources */,
@@ -384,6 +394,7 @@
 				0B9CD568178C08DC00BD2196 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

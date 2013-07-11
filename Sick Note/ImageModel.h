@@ -12,6 +12,7 @@ typedef void(^handler)(UIImage *image);
 
 @interface ImageModel : NSObject
 
+@property (nonatomic, assign) NSInteger index;
 @property (nonatomic, strong) NSURL *imageUrl;
 
 - (void)getImageWithCompletionHandler:(handler)completionBlock;
